@@ -1,21 +1,17 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package tienda;
 
-/**
- *
- * @author Usuario
- */
+package tienda;
+import java.util.Scanner;
 public class Tienda {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        System.out.println("hola");
+        Scanner sc = new Scanner(System.in);
+        String d;
+        System.out.println("Ingrese el nombre de alguno de los propirtarios");
+        d=sc.nextLine();
+        cliente pr =new cliente(d);
+        pr.propietarios(d);
+       
+        
     }
     
 }
