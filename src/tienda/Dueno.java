@@ -1,11 +1,11 @@
 
 package tienda;
 
-public class cliente {
+public class Dueno {
     String []du={"ENRIQUE","CARLOS","JOSE"};
     String p;
     boolean encontrado = false;
-    public cliente(String p){
+    public Dueno(String p){
         this.p=p;
     }
     public void propietarios(String d){

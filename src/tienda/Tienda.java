@@ -8,7 +8,7 @@ public class Tienda {
         String d;
         System.out.println("Ingrese el nombre de alguno de los propirtarios");
         d=sc.nextLine();
-        cliente pr =new cliente(d);
+        Dueno pr =new Dueno(d);
         pr.propietarios(d);
        
         
