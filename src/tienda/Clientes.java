@@ -1,10 +1,11 @@
 
 package tienda;
-
+import java.util.Scanner;
 public class Clientes {
     String cl;
     String clr[]={"Ana", "Juan", "Pedro"};
-    String clxr[]= new String[100];
+    int agregar=clr.length;
+    String []clxr= new String[agregar];
     boolean clrr=false;
     public Clientes(String cl){
         this.cl=cl;      
@@ -22,7 +23,9 @@ public class Clientes {
                 
             }
             else{
-                System.out.println("intentelo de nuevo");
+                System.out.println("ingrese el nombre del cliente a registrar");
+                
+                
             }
         
     }
